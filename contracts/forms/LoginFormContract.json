@@ -1,0 +1,26 @@
+{
+  "name": "LoginForm",
+  "endpoint": "/forms/login",
+  "header": "Login to Your Account",
+  "requestBody": ["email", "password"],
+  "fields": {
+    "email": {
+      "name": "email",
+      "component": {
+        "componentName": "Input",
+        "type": "email",
+        "placeholder": "Enter your email"
+      },
+      "required": true
+    },
+    "password": {
+      "name": "password",
+      "component": {
+        "componentName": "Input",
+        "type": "password",
+        "placeholder": "Enter your password"
+      },
+      "required": true
+    }
+  }
+}
